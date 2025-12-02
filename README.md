@@ -1,4 +1,5 @@
-## B2 – Final Project 🤖
+# B2 – Final Project 🤖
+## Introduction to robotics
 <p style="font-size:20px;">
 In this section, you can find an overview of two projects carried out in the Robotics Lab by group B2. For more detailed information, please check the links to “Introduction to Robotics” and “Introduction to Robotics Tutorial.”
 </p>
