@@ -2,6 +2,7 @@ This repository contains the documentation and the complete mathematical model o
 
 The robot is composed exclusively of prismatic joints (linear motion), which greatly simplifies its kinematic description. Therefore, the Denavit-Hartenberg (DH) parameterization is not particularly significant in this case.
 
+---
 
 1. Kinematic Models 
 
@@ -30,6 +31,7 @@ To reach a desired position (xd, yd, zd) , the robot must generate joint displac
 Jacobian Matrix
 Since the robot is Cartesian, each joint produces a pure linear motion directly along one of the end-effector axes. This results in the Jacobian matrix being equal to the 3x3 identity matrix.
 
+---
 
 2. Decoupled Dynamics 
 
@@ -51,8 +53,7 @@ Z Axis: This equation includes the same terms as the X/Y axes, plus an additiona
 
 Definitions: The equations use variables for the linear actuation force (Fi), the effective moving mass (mi), viscous friction (Bi), Coulomb friction (Fci), and gravitational acceleration (g).
 
-
-
+---
 
 3. Torque/Force Transmission Relations 
 
