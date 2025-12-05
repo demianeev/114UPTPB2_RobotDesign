@@ -1,4 +1,4 @@
-This repository (or project) contains the complete documentation for the robotics project.
+This repository contains the complete documentation for the robotics project.
 
 - The structure is organized by component and includes the following main sections:
 
