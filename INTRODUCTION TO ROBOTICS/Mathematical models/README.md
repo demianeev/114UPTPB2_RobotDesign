@@ -117,7 +117,7 @@ T_design = 0.051 × 2 = 0.10 Nm
 - Required design torque: 0.10 Nm
 - Typical NEMA 17 nominal torque: 0.4 – 0.5 Nm
 
-✅ The required torque is well below the nominal torque of a standard NEMA 17 stepper motor, confirming its suitability for the proposed AOI application.
+The required torque is well below the nominal torque of a standard NEMA 17 stepper motor, confirming its suitability for the proposed AOI application.
 
 ---
 
