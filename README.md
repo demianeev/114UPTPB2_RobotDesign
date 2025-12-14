@@ -12,8 +12,8 @@ In this section, you can find an overview of the robotics project that the B2 gr
 - Luis Prieto F11303116
 - Eduardo Vazquez F11303117
 
-![2](https://github.com/user-attachments/assets/d2c51280-9530-48a5-8589-74b27ea58eb2)
 
+<img width="691" height="361" alt="openingrobotics" src="https://github.com/user-attachments/assets/3b9cb69a-cec1-4f92-ae06-90cc03360d59" />
 
 
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/273b1228-8c30-40ee-9258-3e054ff42de4" />
