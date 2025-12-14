@@ -77,7 +77,7 @@ This analysis determines the minimum actuator requirements for the Z-axis. The X
  camera mass: mc=0.30kg
  motor mass: mm=0.35kg (standard value)
  mtotal=mc+mm
-* mtotal=0.65kg
+ mtotal=0.65kg
 - *Force in the z-axis:*
 * Fz=mtotal*g
 * Fz=0.65*9.81=6.38N
