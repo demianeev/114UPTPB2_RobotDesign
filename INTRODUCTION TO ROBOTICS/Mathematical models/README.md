@@ -68,11 +68,9 @@ Belt Drive (X and Y Axes): The force is related to the motor torque through the 
 
 Ball Screw (Z Axis): The force is related to the motor torque through the screw lead (L) and the mechanical efficiency (eta).
 
----
+
 
 ## Required force and safety factor calculations
-
-<img width="985" height="867" alt="image" src="https://github.com/user-attachments/assets/dde39d2a-d1f7-4141-b141-99ded1909d41" />
 
 Required Force and Torque
 This analysis determines the minimum actuator requirements for the Z-axis. The X and Y axes are dominated by friction and inertial effects and are treated similarly.
