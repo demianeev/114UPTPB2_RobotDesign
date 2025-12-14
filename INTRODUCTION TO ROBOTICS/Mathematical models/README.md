@@ -96,7 +96,7 @@ Where:
 T = 6.38 × 0.008  
 T = 0.051 Nm
 
-➡ **Theoretical minimum torque:**  
+ **Theoretical minimum torque:**  
 T_min = 0.051 Nm
 
 ---
