@@ -74,9 +74,9 @@ Ball Screw (Z Axis): The force is related to the motor torque through the screw 
 
 *Required Force and Torque*
 This analysis determines the minimum actuator requirements for the Z-axis. The X and Y axes are dominated by friction and inertial effects and are treated similarly.
-* camera mass: mc=0.30kg
-* motor mass: mm=0.35kg (standard value)
-* mtotal=mc+mm
+ camera mass: mc=0.30kg
+ motor mass: mm=0.35kg (standard value)
+ mtotal=mc+mm
 * mtotal=0.65kg
 - *Force in the z-axis:*
 * Fz=mtotal*g
