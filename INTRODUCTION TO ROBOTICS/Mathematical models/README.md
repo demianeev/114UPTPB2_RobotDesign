@@ -70,98 +70,57 @@ Ball Screw (Z Axis): The force is related to the motor torque through the screw 
 
 ---
 
-## Required Force and Torque Analysis (Z-Axis)
+## Force Acting on the Z-Axis
 
-This section determines the **minimum actuator torque requirement** for the Z-axis of the system.  
-The X and Y axes are primarily affected by friction and inertial forces and are therefore treated separately.
+The force required to lift the system against gravity is calculated as:
 
----
-
-### System Parameters
-
-- **Camera mass:**  
-  \( m_c = 0.30 \, \text{kg} \)
-
-- **Motor mass:**  
-  \( m_m = 0.35 \, \text{kg} \) *(standard value)*
-
-- **Total moving mass:**  
-  \[
-  m_{total} = m_c + m_m = 0.65 \, \text{kg}
-  \]
-
----
-
-### Force Acting on the Z-Axis
-
-The force required to lift the system against gravity is:
-
-\[
-F_z = m_{total} \cdot g
-\]
-
-\[
-F_z = 0.65 \cdot 9.81 = 6.38 \, \text{N}
-\]
-
----
-
-### Torque Requirement (Belt-Driven System)
-
-For a belt-driven transmission, the relationship between force and torque is given by:
-
-\[
-T = F_z \cdot r
-\]
+Fz = m_total × g
 
 Where:
-- \( r = 8 \, \text{mm} = 0.008 \, \text{m} \)
+- m_total = 0.65 kg
+- g = 9.81 m/s²
 
-\[
-T = 6.38 \cdot 0.008 = 0.051 \, \text{Nm}
-\]
+Fz = 0.65 × 9.81 = 6.38 N
+
+---
+
+## Torque Requirement (Belt-Driven System)
+
+For a belt-driven transmission, the relationship between force and torque is:
+
+T = Fz × r
+
+Where:
+- r = 8 mm = 0.008 m
+
+T = 6.38 × 0.008  
+T = 0.051 Nm
 
 ➡ **Theoretical minimum torque:**  
-\[
-T_{min} = 0.051 \, \text{Nm}
-\]
+T_min = 0.051 Nm
 
 ---
 
-### Safety Factor
+## Safety Factor
 
-To account for uncertainties such as:
-- friction variation,
-- manufacturing tolerances,
-- wear and misalignment,
+To account for friction, manufacturing tolerances, and uncertainties, a safety factor is applied.
 
-a **safety factor (SF)** is applied.
+- Safety Factor (SF) = 2
 
-For light industrial robotics applications:
-\[
-SF = 2
-\]
-
-\[
-T_{design} = T_{min} \cdot SF = 0.051 \cdot 2 = 0.10 \, \text{Nm}
-\]
+T_design = T_min × SF  
+T_design = 0.051 × 2 = 0.10 Nm
 
 ---
 
-### Motor Selection Verification
+## Motor Selection
 
-- **Required design torque:**  
-  \( T_{design} = 0.10 \, \text{Nm} \)
+- Required design torque: 0.10 Nm
+- Typical NEMA 17 nominal torque: 0.4 – 0.5 Nm
 
-- **Typical NEMA 17 nominal torque:**  
-  \( 0.4 \, \text{Nm} \) to \( 0.5 \, \text{Nm} \)
-
-✅ The required torque is **well below** the nominal torque of a standard **NEMA 17 stepper motor**, confirming its suitability for the proposed **AOI (Automated Optical Inspection)** application.
+✅ The required torque is well below the nominal torque of a standard NEMA 17 stepper motor, confirming its suitability for the proposed AOI application.
 
 ---
 
-### Conclusion
+## Conclusion
 
-The torque analysis demonstrates that the Z-axis actuator operates with a significant safety margin, ensuring reliable performance and mechanical robustness under normal operating conditions.
-
-
+The Z-axis torque requirement includes a sufficient safety margin, ensuring reliable operation under normal working conditions.
