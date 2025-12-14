@@ -2,5 +2,7 @@
 - This section houses MATLAB scripts (.m) and animation files (.mp4).
 - Purpose: To visually represent and validate the mathematical models defined for the robot's motion and AOI scanning paths.
 
-<img width="577" height="433" alt="graph1" src="https://github.com/user-attachments/assets/d4511ec4-2d23-4752-8483-6887273ecf67" />
+### AOI_scan_2D.mp4
+<img width="925" height="694" alt="image" src="https://github.com/user-attachments/assets/341774c5-f0cd-4525-8c48-a0af30535605" />
+
 
