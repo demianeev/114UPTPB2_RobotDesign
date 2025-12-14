@@ -70,6 +70,7 @@ Ball Screw (Z Axis): The force is related to the motor torque through the screw 
 
 ---
 
-Required force and safety factor
+## Required force and safety factor
+
 <img width="985" height="867" alt="image" src="https://github.com/user-attachments/assets/dde39d2a-d1f7-4141-b141-99ded1909d41" />
 
