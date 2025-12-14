@@ -74,3 +74,23 @@ Ball Screw (Z Axis): The force is related to the motor torque through the screw 
 
 <img width="985" height="867" alt="image" src="https://github.com/user-attachments/assets/dde39d2a-d1f7-4141-b141-99ded1909d41" />
 
+Required Force and Torque
+This analysis determines the minimum actuator requirements for the Z-axis. The X and Y axes are dominated by friction and inertial effects and are treated similarly.
+camera mass: mc=0.30kg
+motor mass: mm=0.35kg (standard value)
+mtotal=mc+mm
+mtotal=0.65kg
+Force in the z-axis:
+Fz=mtotal*g
+Fz=0.65*9.81=6.38N
+Relationship force-torque in a belt system:
+T=Fz*r       where    r=8mm=0.008m
+T=6.38*0.008
+T=0.051 Nm  (Theoretical minimum torque) 
+Safety Factor
+An appropriate safety factor is applied to account for uncertainties such as friction variation and manufacturing tolerances.
+Typically for light industrial robotics we use SF=2.
+Tdesign=20.051=0.10 Nm
+TmotorTdesign  and the nominal torque is between 0.4Nm to 0.5Nm
+The resulting torque requirement is well below the nominal torque of a standard NEMA 17 stepper motor, confirming its suitability for the proposed AOI application.
+
