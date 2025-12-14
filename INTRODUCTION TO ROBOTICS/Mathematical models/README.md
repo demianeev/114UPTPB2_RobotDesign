@@ -70,9 +70,9 @@ Ball Screw (Z Axis): The force is related to the motor torque through the screw 
 
 
 
-## Required force and safety factor calculations
+### Required force and safety factor calculations
 
-Required Force and Torque
+*Required Force and Torque*
 This analysis determines the minimum actuator requirements for the Z-axis. The X and Y axes are dominated by friction and inertial effects and are treated similarly.
 camera mass: mc=0.30kg
 motor mass: mm=0.35kg (standard value)
@@ -81,7 +81,7 @@ mtotal=0.65kg
 Force in the z-axis:
 Fz=mtotal*g
 Fz=0.65*9.81=6.38N
-Relationship force-torque in a belt system:
+*Relationship force-torque in a belt system:*
 T=Fz*r       where    r=8mm=0.008m
 T=6.38*0.008
 T=0.051 Nm  (Theoretical minimum torque) 
