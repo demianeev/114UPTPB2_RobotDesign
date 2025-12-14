@@ -5,3 +5,5 @@ The system consists of an ESP32 microcontroller and a 24V DC power supply. It in
 ## Component List
 
 ![lista](https://github.com/user-attachments/assets/983fd36b-9932-4b69-88dd-6f6a3d3e3e9a)
+
+<img width="1289" height="452" alt="image" src="https://github.com/user-attachments/assets/ea5324f0-4696-4985-802d-5e2a9370352c" />
