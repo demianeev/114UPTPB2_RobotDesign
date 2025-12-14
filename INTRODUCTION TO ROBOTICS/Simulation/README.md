@@ -8,5 +8,6 @@
 ## AOI_scan_3D.mp4
 <img width="930" height="695" alt="image" src="https://github.com/user-attachments/assets/2f496b82-5b33-48cc-8bde-7d02f415d922" />
 
-
+## Workspace_Jacobian_3D.mp4
+<img width="929" height="697" alt="image" src="https://github.com/user-attachments/assets/5b4e8092-cf47-4d43-bafe-9a3596fcd984" />
 
