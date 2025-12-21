@@ -31,3 +31,7 @@ _**[11]** J. J. Craig, *Introduction to Robotics: Mechanics and Control*, 3rd ed
 _**[12]** M. W. Spong, S. Hutchinson, and M. Vidyasagar, *Robot Modeling and Control*. New York: Wiley, 2006. (Used for Dynamic Analysis and equations of motion)._
 
 _**[13]** R. G. Budynas and J. K. Nisbett, *Shigley's Mechanical Engineering Design*, 10th ed. New York: McGraw-Hill Education, 2015. (Used for mechanical transmission, belt drives, and lead screw torque calculations)._
+
+### Simulation
+
+_**[14]** M. Ayyıldız, Y. K. Çiftçi, K. Kilecioğlu, and Ö. F. Arslan, "Fruit Sorting Automation; Cartesian Robot and Conveyor Design," Düzce University Journal of Science & Technology, vol. 12, no. 3, pp. 1627-1639, 2024._
