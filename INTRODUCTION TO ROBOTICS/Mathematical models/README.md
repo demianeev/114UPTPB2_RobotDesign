@@ -1,5 +1,4 @@
 ### ▶︎ This repository contains the documentation and the complete mathematical model of a 3-Degree-of-Freedom (3-DOF) Cartesian robot.
-La fuerza es $F = m \cdot a$ en el sistema.
 
 The robot is composed exclusively of prismatic joints (linear motion), which greatly simplifies its kinematic description. Therefore, the Denavit-Hartenberg (DH) parameterization is not particularly significant in this case.
 
