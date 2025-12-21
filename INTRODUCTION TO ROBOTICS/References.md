@@ -2,13 +2,11 @@
 
 ### Mathematical Models
 
-_**[1]** OMRON Industrial Automation, *FQ2 Smart Camera Datasheet*, Cat. No. Q193-E1-01, 2021. [Online]. Available: https://automation.omron.com. (Used for camera mass $m_c$)._
+_**[1]** J. J. Craig, *Introduction to Robotics: Mechanics and Control*, 3rd ed. Upper Saddle River, NJ: Pearson Prentice Hall, 2005. (Used for Kinematic Models and Jacobian analysis)._
 
-_**[2]** Schneider Electric, *NEMA 17 Stepper Motor Specifications - M-1713-1.5*, 2023. (Used for motor mass $m_m$ and nominal torque)._
+_**[2]** M. W. Spong, S. Hutchinson, and M. Vidyasagar, *Robot Modeling and Control*. New York: Wiley, 2006. (Used for Dynamic Analysis and equations of motion)._
 
-_**[3]** Gates Corporation, *PowerGrip GT2 Belt Drives - Design Manual*, Denver, CO, 2018. (Used for pulley radius $r$ and transmission efficiency)._
-
-_**[4]** ISO 10243, *Tools for pressing - Mechanical properties of steel springs*, International Organization for Standardization, 2019. (Reference for Safety Factor selection)._
+_**[3]** R. G. Budynas and J. K. Nisbett, *Shigley's Mechanical Engineering Design*, 10th ed. New York: McGraw-Hill Education, 2015. (Used for mechanical transmission, belt drives, and lead screw torque calculations)._
 
 ### Electrical Design
 
@@ -24,14 +22,6 @@ _**[9]** HIWIN Technologies Corp., *Linear Guideways: MG Series*, Tech. Rep. G99
 
 _**[10]** Mean Well Enterprises Co., Ltd., *LRS-350 Series 24V Single Output Switching Power Supply Datasheet*, 2022. (Industry standard for 24V Supplies)._
 
-### Mathematical Models
-
-_**[11]** J. J. Craig, *Introduction to Robotics: Mechanics and Control*, 3rd ed. Upper Saddle River, NJ: Pearson Prentice Hall, 2005. (Used for Kinematic Models and Jacobian analysis)._
-
-_**[12]** M. W. Spong, S. Hutchinson, and M. Vidyasagar, *Robot Modeling and Control*. New York: Wiley, 2006. (Used for Dynamic Analysis and equations of motion)._
-
-_**[13]** R. G. Budynas and J. K. Nisbett, *Shigley's Mechanical Engineering Design*, 10th ed. New York: McGraw-Hill Education, 2015. (Used for mechanical transmission, belt drives, and lead screw torque calculations)._
-
 ### Simulation
 
-_**[14]** M. Ayyıldız, Y. K. Çiftçi, K. Kilecioğlu, and Ö. F. Arslan, "Fruit Sorting Automation; Cartesian Robot and Conveyor Design," Düzce University Journal of Science & Technology, vol. 12, no. 3, pp. 1627-1639, 2024._
+_**[11]** M. Ayyıldız, Y. K. Çiftçi, K. Kilecioğlu, and Ö. F. Arslan, "Fruit Sorting Automation; Cartesian Robot and Conveyor Design," Düzce University Journal of Science & Technology, vol. 12, no. 3, pp. 1627-1639, 2024._
