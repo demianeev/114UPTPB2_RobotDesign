@@ -1,4 +1,4 @@
-Introduction to Robotics - Team B2 – Final Project 🤖
+Introduction to Robotics - Team B2 – Final Project 
 ---
 <p style="font-size:20px;">
 In this section, you can find an overview of the robotics project that the B2 group is working on. For more detailed information, please check the link to “Introduction to Robotics”.
