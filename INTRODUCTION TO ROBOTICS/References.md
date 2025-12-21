@@ -1,6 +1,6 @@
-### References
+## References
 
-#### Mathematical Models
+### Mathematical Models
 
 **[1]** OMRON Industrial Automation, *FQ2 Smart Camera Datasheet*, Cat. No. Q193-E1-01, 2021. [Online]. Available: https://automation.omron.com. (Used for camera mass $m_c$).
 
