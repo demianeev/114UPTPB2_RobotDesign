@@ -5,10 +5,39 @@ This directory contains the theoretical framework, derivation of equations, and 
 ## 📂 Directory Contents
 
 ### 1. Mathematical Model (Kinematics)
-Contains the geometric description of the robot's motion.
-* **Direct Kinematic Model (DKM):** Maps joint variables ($q_1, q_2, q_3$) to the end-effector position ($x, y, z$).
-* **Inverse Kinematic Model (IKM):** Determines required joint displacements for a desired target coordinate.
-* **Jacobian Matrix:** Analysis of velocity relationships, which simplifies to an identity matrix $I_3$ due to the decoupled Cartesian design.
+
+Given the Cartesian nature of the robot, the kinematic description is straightforward. However, to strictly comply with standard kinematic decoupling, we define the control variables in the **wrist frame** and apply a fixed transformation to reach the **end-effector (task space)**.
+
+#### End-Effector Offset Transformation
+The DH parameters define the kinematic chain up to the robot's wrist (last prismatic joint). The camera (end-effector) is attached to the wrist with a fixed mechanical offset.
+
+Let the position of the end-effector be $\mathbf{P}_E$ and the position of the wrist be $\mathbf{P}_W$. The relationship is defined by a fixed translation vector $\mathbf{L}_{offset}$:
+
+$$
+\mathbf{P}_E = \mathbf{P}_W + \mathbf{L}_{offset}
+$$
+
+#### Inverse Kinematic Model (IKM) with Task Space Shift
+To reach a desired target coordinate $(x_d, y_d, z_d)$ in the task space, we must first shift the coordinates to the wrist frame. This allows us to correct the IKM without modifying the core DH parameters.
+
+**1. Shift from Task Space to Joint Space:**
+
+$$
+\mathbf{P}_W = \mathbf{P}_{target} - \mathbf{L}_{offset}
+$$
+
+**2. Solve for Joint Displacements:**
+Since the wrist position corresponds directly to the prismatic extensions:
+
+$$
+\begin{aligned}
+q_1 &= y_d - L_{y,offset} \\
+q_2 &= x_d - L_{x,offset} \\
+q_3 &= z_d - L_{z,offset}
+\end{aligned}
+$$
+
+> **Note:** Ideally, for this design, the offsets are purely structural. If the camera is mounted directly below the Z-axis, $L_x$ and $L_y$ may be zero, leaving only a vertical offset $L_z$.
 
 ### 2. Dynamic Analysis
 Describes the forces and torques required to cause motion.
