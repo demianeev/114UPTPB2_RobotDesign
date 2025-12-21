@@ -21,6 +21,7 @@ The standard DH parameters define the robot up to the **wrist** (Link 3). The ca
 
 **Implemented IKM Equation:**
 To reach a target coordinate $P_{target}$, the wrist position $q$ is calculated as:
+
 $$
 q = P_{target} - L_{offset}
 $$
