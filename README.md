@@ -1,7 +1,7 @@
 Introduction to Robotics - Team B2 – Final Project 
 ---
 <p style="font-size:20px;">
-In this section, you can find an overview of the robotics project called "Cartesian Robot for AOI (PPP)", developed by group B2. For more detailed information, please check the link to “Introduction to Robotics”.
+In this section, you can find an overview of the robotics project called "Cartesian Robot for AOI (PPP)", developed by group B2. For more detailed information, please check the link to “Introduction to Robotics”, you can also find our final report in the Report folder..
 </p>
 
 ---
