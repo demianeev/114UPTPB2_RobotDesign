@@ -4,5 +4,15 @@ The system consists of an ESP32 microcontroller and a 24V DC power supply. It in
 
 ## Component List
 
-![lista](https://github.com/user-attachments/assets/983fd36b-9932-4b69-88dd-6f6a3d3e3e9a)
+### Hardware Components List
 
+| Category | Component | Purpose |
+| :--- | :--- | :--- |
+| **Actuation** | NEMA 17 Stepper | Linear motion generation |
+| **Drive** | TB6600 | Stepper motor control |
+| **Power** | 24 V DC Supply | System power |
+| **Transmission** | GT2 Belt + Tensioner | Torque transmission |
+| **Guidance** | MGN12 Linear Rail | Precision linear guidance |
+| **Structure** | Aluminum Profiles $25 \times 25$ | Robot frame |
+| **Custom Parts** | 3D Printed Components | Mounts and brackets |
+| **Control** | ESP32 | System controller |
