@@ -6,14 +6,12 @@ In this section, you can find an overview of the robotics project that the B2 gr
 
 ---
 **𝙂𝙧𝙤𝙪𝙥 𝙈𝙚𝙢𝙗𝙚𝙧𝙨**
-- Leonardo Barrios F11303103
-- Giulana Brizuela F11303106
-- Demian Escurra F11303108
-- Luis Prieto F11303116
-- Eduardo Vazquez F11303117
+- Leonardo Barrios F11303103 - Math / Models
+- Giulana Brizuela F11303106 - Mechanical Design
+- Demian Escurra F11303108 - Simulations
+- Luis Prieto F11303116 - CAD Design
+- Eduardo Vazquez F11303117 - Electrical Design / Project Management / Biographical Revision
 
 
 <img width="691" height="361" alt="openingrobotics" src="https://github.com/user-attachments/assets/3b9cb69a-cec1-4f92-ae06-90cc03360d59" />
 
-
-<img width="400" alt="image" src="https://github.com/user-attachments/assets/273b1228-8c30-40ee-9258-3e054ff42de4" />
