@@ -1,27 +1,42 @@
-# Direct and Inverse Kinematics
+# Mathematical Model: Full Documentation
 
-## 📄 Documentation
-The complete derivation of the Denavit-Hartenberg (DH) parameters and the geometric analysis can be found in the attached document:
+## 📄 Master Document
+This directory contains the complete theoretical analysis of the robot in the following PDF file:
 * [MATHEMATICAL MODEL OF A 3-DOF CARTESIAN ROBOT.pdf](./MATHEMATICAL%20MODEL%20OF%20A%203-DOF%20CARTESIAN%20ROBOT.pdf)
 
-## ⚠️ Implementation Note: End-Effector Offset
-While the PDF document presents the fundamental DH parameters (Table 1), the practical control implementation requires a **Task-Space Shift** to account for the physical distance between the robot's wrist and the camera lens (End-Effector).
+### PDF Contents
+The document covers the following key areas:
+1.  [cite_start]**Kinematic Models:** Direct (DKM) and Inverse (IKM) modeling, including Denavit-Hartenberg parameters[cite: 296, 303, 311].
+2.  [cite_start]**Jacobian Matrix:** Velocity analysis showing the identity relationship ($J = I_3$) due to the decoupled Cartesian design[cite: 319].
+3.  [cite_start]**Dynamic Analysis:** Axis-by-axis decoupled equations of motion ($F = ma + Bv + ...$)[cite: 324].
+4.  [cite_start]**Actuator Sizing:** Force and torque transmission relations for belt and screw drives[cite: 339].
 
-### Correction Applied
-As per the rigorous kinematic definition, the variables $q_1, q_2, q_3$ drive the **wrist**, not the camera tip. Therefore, the Inverse Kinematic Model (IKM) used in our software includes the following transformation:
+---
 
-**Standard Model (PDF):**
-$$q = P_{target}$$
+## ⚠️ Implementation Note: Kinematics & Offset
+While the PDF presents the fundamental geometric model, the software implementation includes a **Task-Space Shift** to account for the camera offset.
 
-**Corrected Model (Implemented):**
-$$q = P_{target} - L_{offset}$$
+### End-Effector Correction
+The standard DH parameters define the robot up to the **wrist** (Link 3). The camera (End-Effector) is mounted with a fixed structural offset ($L_{offset}$).
 
-Where $L_{offset}$ is the fixed vector corresponding to the camera mount length (Link 4 in the DH table).
+**Implemented IKM Equation:**
+To reach a target coordinate $P_{target}$, the wrist position $q$ is calculated as:
+$$
+q = P_{target} - L_{offset}
+$$
 
-### Summary of DH Parameters (with Offset)
-| Link | $\theta_i$ | $d_i$ | $a_{i-1}$ | $\alpha_{i-1}$ | Note |
-| :---: | :---: | :---: | :---: | :---: | :--- |
-| **1** | $0$ | $q_1$ | $0$ | $0$ | Vertical Axis |
-| **2** | $180^\circ$ | $q_2$ | $0$ | $-90^\circ$ | Horizontal Axis |
-| **3** | $-90^\circ$ | $q_3$ | $0$ | $-90^\circ$ | Depth Axis |
-| **4** | $0$ | **$L_{offset}$** | $0$ | $0$ | **Fixed Camera Offset** |
+### Jacobian Matrix
+As detailed in the document, the Jacobian is the Identity Matrix ($I_3$). This confirms that the joint velocities map one-to-one to the end-effector linear velocities, simplifying the control loop.
+
+$$
+\dot{x} = J \dot{q} \quad \Rightarrow \quad \dot{x} = \dot{q}
+$$
+
+---
+
+## 🔗 Related Analysis
+For a deeper breakdown of the specific calculations derived from this model, please refer to the specific sub-directories:
+
+* **Dynamics & Friction:** See [Dynamic Analysis](../Dynamic%20Analysis)
+* **Motor Sizing:** See [Required Force and Torque](../Required%20Force%20and%20Torque)
+* **Safety Verification:** See [Safety Factor](../Safety%20Factor)
