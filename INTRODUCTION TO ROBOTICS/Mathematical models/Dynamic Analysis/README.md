@@ -8,13 +8,13 @@ The robot operates at low speeds and carries a lightweight camera payload. Conse
 **X and Y axes:**
 
 $$
-m_x \ddot{x} + B_x \dot{x} + F_{cx} \operatorname{sgn}(\dot{x}) = F_x
+m_x \ddot{x} + B_x \dot{x} + F_{cx} \text{sgn}(\dot{x}) = F_x
 $$
 
 **Z axis:**
 
 $$
-m_z \ddot{z} + B_z \dot{z} + F_{cz} \operatorname{sgn}(\dot{z}) + m_z g = F_z
+m_z \ddot{z} + B_z \dot{z} + F_{cz} \text{sgn}(\dot{z}) + m_z g = F_z
 $$
 
 **Where:**
