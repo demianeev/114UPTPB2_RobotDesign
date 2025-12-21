@@ -6,10 +6,10 @@ This directory contains the complete theoretical analysis of the robot in the fo
 
 ### PDF Contents
 The document covers the following key areas:
-1.  [cite_start]**Kinematic Models:** Direct (DKM) and Inverse (IKM) modeling, including Denavit-Hartenberg parameters[cite: 296, 303, 311].
-2.  [cite_start]**Jacobian Matrix:** Velocity analysis showing the identity relationship ($J = I_3$) due to the decoupled Cartesian design[cite: 319].
-3.  [cite_start]**Dynamic Analysis:** Axis-by-axis decoupled equations of motion ($F = ma + Bv + ...$)[cite: 324].
-4.  [cite_start]**Actuator Sizing:** Force and torque transmission relations for belt and screw drives[cite: 339].
+1.  **Kinematic Models:** Direct (DKM) and Inverse (IKM) modeling, including Denavit-Hartenberg parameters.
+2.  **Jacobian Matrix:** Velocity analysis showing the identity relationship ($J = I_3$) due to the decoupled Cartesian design.
+3.  **Dynamic Analysis:** Axis-by-axis decoupled equations of motion ($F = ma + Bv + ...$).
+4.  **Actuator Sizing:** Force and torque transmission relations for belt and screw drives.
 
 ---
 
