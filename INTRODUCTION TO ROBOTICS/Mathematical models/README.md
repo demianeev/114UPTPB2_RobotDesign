@@ -4,7 +4,7 @@ This directory contains the theoretical framework, derivation of equations, and 
 
 ## 📂 Directory Contents
 
-### 1. Mathematical Model (Kinematics)
+### 1. Mathematical Model (Full Documentation) -Kinematics-
 
 Given the Cartesian nature of the robot, the kinematic description is straightforward. However, to strictly comply with standard kinematic decoupling, we define the control variables in the **wrist frame** and apply a fixed transformation to reach the **end-effector (task space)**.
 
